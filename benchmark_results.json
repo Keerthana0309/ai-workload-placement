@@ -1,0 +1,107 @@
+[
+  {
+    "example": 1,
+    "local": {
+      "output": "Here is a 2-sentence summary of the text:\n\nNASA's Artemis II mission, aimed at sending four astronauts around the Moon, has completed a major pre-launch milestone as engineers finished stacking the core stage of the Space Launch System rocket. The crew will embark on their historic flight early next year, pending final safety reviews, after training in simulators to prepare for the mission.",
+      "latency_sec": 2.99,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "edge": {
+      "output": "NASA's Artemis II mission, the first crewed flight to the Moon since Apollo 17 in 1972, has completed a major pre-launch milestone by stacking the core stage of the Space Launch System rocket. The mission is on track for a launch window early next year, pending final safety reviews, and the crew has been training in simulators to prepare for the mission.",
+      "latency_sec": 4.55,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "cloud": {
+      "output": "NASA's Artemis II mission, which will carry four astronauts around the Moon, has completed a major construction milestone with the stacking of the Space Launch System rocket's core stage and is on track for launch in early 2024, marking the first crewed lunar mission since Apollo 17 in 1972. The crew has been undergoing intensive simulator training to prepare for the flight, pending final safety reviews.",
+      "latency_sec": 1.45,
+      "cost_usd": 0.000149,
+      "error": null
+    }
+  },
+  {
+    "example": 2,
+    "local": {
+      "output": "Here is a 2-sentence summary of the text:\n\nA new study found that cities investing in protected bike lanes have seen a 40% increase in cycling commuters within two years, with physical separated lanes being the strongest predictor of increased ridership. The study's authors noted that safety perception, rather than just actual safety, played a major role in residents' decisions to bike to work.",
+      "latency_sec": 5.14,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "edge": {
+      "output": "Here is a 2-sentence summary of the text:\n\nA new study found that cities that built protected bike lanes saw a 40% increase in cycling commuters within two years, with physically separated lanes being the strongest predictor of increased ridership. The study also found that safety perception, not just actual safety, played a major role in residents' decision to bike to work.",
+      "latency_sec": 4.59,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "cloud": {
+      "output": "A new study found that cities with protected bike lanes experienced a 40 percent increase in cycling commuters within two years, with physical separation being more effective than painted lines alone. The research suggests that cyclists' perception of safety, not just actual safety, was a key factor in encouraging people to bike to work.",
+      "latency_sec": 1.13,
+      "cost_usd": 0.000115,
+      "error": null
+    }
+  },
+  {
+    "example": 3,
+    "local": {
+      "output": "Here is a 2-sentence summary of the text:\n\nThe Federal Reserve held interest rates steady at its latest meeting, citing mixed signals in the labor market and continued progress on inflation. The Fed's chair emphasized that future policy decisions would be data-dependent and not follow a preset path, indicating that the decision was largely anticipated by markets.",
+      "latency_sec": 3.91,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "edge": {
+      "output": "Here is a 2-sentence summary of the text:\n\nThe Federal Reserve maintained interest rates at their latest meeting, citing mixed signals in the labor market and continued inflation trends, while also indicating that future policy decisions would remain data-dependent rather than following a preset path.",
+      "latency_sec": 3.46,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "cloud": {
+      "output": "# Summary\n\nThe Federal Reserve maintained interest rates unchanged while signaling it will base future decisions on incoming economic data, citing mixed labor market conditions and ongoing inflation progress. Though markets expected this outcome, some analysts had anticipated hints about potential rate cuts later in the year.",
+      "latency_sec": 1.14,
+      "cost_usd": 9.9e-05,
+      "error": null
+    }
+  },
+  {
+    "example": 4,
+    "local": {
+      "output": "A small coastal town in Maine has become a hub for oyster farming startups, with several companies launching in the past year. This trend is driven by local fishermen looking to diversify their income and capitalize on the growing demand for oysters, which are now being cultivated in the town's harbor and featured on restaurant menus.",
+      "latency_sec": 4.14,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "edge": {
+      "output": "A small coastal town in Maine has become a hub for oyster farming startups, with three new companies launching in the past year. This shift has been driven by local fishermen who are seeking a more stable source of income due to declining lobster catches due to warming waters.",
+      "latency_sec": 4.29,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "cloud": {
+      "output": "A Maine coastal town has emerged as a center for oyster farming, with three new aquaculture startups launching in the past year as local fishermen shift away from declining lobster catches due to warming waters. The town's harbor now contains over a dozen oyster cages, and local restaurants are featuring these farmed oysters on their menus.",
+      "latency_sec": 1.24,
+      "cost_usd": 0.000125,
+      "error": null
+    }
+  },
+  {
+    "example": 5,
+    "local": {
+      "output": "Researchers at a university robotics lab have developed a new type of soft robotic gripper that can handle fragile objects like fruit and glassware without causing damage. The gripper uses flexible silicone fingers and pressure sensors to adjust grip strength in real-time, making it ideal for applications such as warehouse automation and food packaging.",
+      "latency_sec": 5.29,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "edge": {
+      "output": "Researchers at a university robotics lab have developed a new type of soft robotic gripper designed to handle fragile objects like fruit and glassware without causing damage. The gripper uses flexible silicone fingers with pressure sensors that adjust grip strength in real time.",
+      "latency_sec": 4.72,
+      "cost_usd": 0.0,
+      "error": null
+    },
+    "cloud": {
+      "output": "# Summary\n\nResearchers have developed a soft robotic gripper with flexible silicone fingers and pressure sensors that can safely handle fragile objects by adjusting grip strength in real time. This technology has promising applications in warehouse automation and food packaging, where traditional rigid robotic arms often damage delicate items.",
+      "latency_sec": 1.16,
+      "cost_usd": 0.000111,
+      "error": null
+    }
+  }
+]
